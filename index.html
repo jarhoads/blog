@@ -1,82 +1,73 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="english">
-  <head>
-    <title>Blog - My Tech Blog</title>
-    <meta charset="utf-8" />
-    <link href="http://fonts.googleapis.com/css?family=Arimo:400,700|Inika" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="theme/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="theme/pastie.css" />
-    <link rel="stylesheet" type="text/css" href="theme/css/pygment.css" />
-    <link href="/" type="application/atom+xml" rel="alternate" title="My Tech Blog Atom Feed" />
+<!DOCTYPE html>
+<html lang="english">
+<head>
+        <meta charset="utf-8" />
+        <title>My Tech Blog</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
 
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
 
-  </head>
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">My Tech Blog </a></h1>
+                <nav><ul>
+                    <li><a href="/category/technology.html">Technology</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
 
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="span8">
-<div id="content">
-<h1>Blog</h1>
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/new-blog-entry.html">New Blog Entry</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2017-11-17T12:45:00-05:00">
+                Published: Fri 17 November 2017
+        </abbr>
+		<br />
+        <abbr class="modified" title="2017-11-17T12:45:00-05:00">
+                Updated: Fri 17 November 2017
+        </abbr>
 
-<ul class="unstyled">
-        <li>
-            <div>
-                <div class="header">
-                    <h2>New Blog Entry</h2>
-                </div>
-                <p class="meta"><small><span><a href="/author/josh-rhoads/">Josh Rhoads</a> - </span><span>Fri 17 November 2017</span> - <span class="tags"><a href="/tag/blog/">blog</a>, <a href="/tag/first/">first</a></span></small></p>
-                <div class="entry-content">
-                    <p>A test post</p>
-                </div><!-- /.entry-content -->
-                <div class="row">
-                    <div class="span4">
-                    </div>
-                    <div class="span1 offset3">
-                        <a class="btn btn-small" href="/new-blog-entry.html" rel="bookmark" title="Permalink to New Blog Entry">More</a>
-                    </div>
-                </div>
-            </div>
-        </li>
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/josh-rhoads.html">Josh Rhoads</a>
+        </address>
+<p>In <a href="/category/technology.html">Technology</a>.</p>
+<p>tags: <a href="/tag/blog.html">blog</a> <a href="/tag/first.html">first</a> </p>
+</footer><!-- /.post-info --><p>This is my first try at using github pages to host my blog.
+I've never used it before, but I think it would be a better way to show what I'm learning.</p>
+<p>The following is some python code:</p>
+<div class="highlight"><pre><span></span><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="n">new_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="o">*</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">my_list</span><span class="p">]</span>
+</pre></div>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
 
-        <li><hr /></li>
-</ul><!-- /#posts-list -->
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
 
-<div class="pagination pagination-centered">
-    <ul>
-        <li class="active"><a href="#">1</a></li>
-    </ul>
-</div>
-</div><!-- /#content -->
-        </div>
-        <div class="span3 offset1">
-          <div class="well">
-            <ul class="nav nav-list">
-              <li class="nav-header">Blog</li>
-              <li class="active"><a href="">Index</a></li>
-              <li ><a href="tags.html">Tags</a></li>
-              <li ><a href="archives.html">Archives</a></li>
-              <li class="nav-header">Links</li>
-              <li><a href="http://getpelican.com/">Pelican</a></li>
-              <li><a href="http://python.org/">Python.org</a></li>
-              <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-            </ul>
-          </div><!-- /#menu -->
-        </div>
-      </div>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
 
-      <hr />
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
 
-      <div class="row">
-        <div class="span12">
-          <div id="about">
-            <p>Proudly powered by <a href="http://twitter.github.com/bootstrap/">bootstrap</a>, <a href="http://docs.notmyidea.org/alexis/pelican/">pelican</a>, and <a href="http://python.org">python</a>!</p>
-          </div><!-- /#about -->
-        </div><!-- /#contentinfo -->
-      </div>
-    </div>
-
-
-  </body>
+</body>
 </html>
